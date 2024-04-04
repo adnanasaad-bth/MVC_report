@@ -1,0 +1,36 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+    <article class="article">
+        <header>
+            <h2>Om Mig Själv</h2>
+            <p class="author">Skriven av Adnan Asaad</p>
+        </header>
+
+        <figure class="figure right img-figure">
+            <img src="{{ asset('build/img/me.jpeg') }}" alt="">
+
+            <figcaption>Adnan Asaad</figcaption>
+        </figure>
+
+    <div>      
+    <p>
+        26 åring  från Stockholm som jobbar inom IT sedan två år som low-code utvecklare på Resursen Sverige AB.
+    </p>
+    <p>
+    Att jobba inom IT var en dröm sedan jag 
+    flyttade till Sverige i 2015.
+    Jag älskar allting som har med teknologi att göra.
+    </p>
+    <p>
+    Under senaste året byggde vi ärendehanteringssystem för Stockholm och Göteborg stad och jag insåg hur jag älskade hela processen och vill gärna  utveckla mig så att jag kan var med i back-end teamet  och utveckla plattformen  som gör det möjligt för alla att komma igång och 
+    bygga med så lite så möjligt erfarenhet inom programmering.
+    </p>
+    <p>
+    I fritiden älskar jag att skapa rörliga innehåll, nu har jag inte gjort det på jättelänge men jag bli glad varje gång när jag sitter och redigerar en video.
+    </p>
+    </div>
+    </article>
+{% endblock %}

@@ -1,3 +1,12 @@
 body {
-    background-color: skyblue;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+h1 {
+    border-bottom: 4px double #ccc;
+}
+.img-figure img{
+    margin: 0 auto;
+    max-width: 400px;
 }
