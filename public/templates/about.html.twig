@@ -3,5 +3,42 @@
 {% block title %}About{% endblock %}
 
 {% block body %}
-    <h1>About</h1>
+<h1>Om MVC</h1>
+<img src="{{ asset('build/img/about_img.jpeg') }}" alt="a laptop with some code lines" class="about-image">
+<div class="grid-container">
+ <div class="grid-item">
+     <p>Detta är en kurs i webbutveckling med fokus på objektorienterad php och Symfony</p>
+           <p>Kursen är del av Webbprogrammering program på BTH.</p>
+                   <p>Vi kommer att använda Symfony som ramverk för att bygga webbapplikationer.</p>
+           <p>Vi kommer att använda Composer för att hantera beroenden.</p>
+           <p>Vi kommer att använda Twig som mallmotor.</p>
+           <p><a href="https://github.com/dbwebb-se/mvc">Kursens Github repo</a></p>
+           <p><a href="https://github.com/adnanasaad-bth/MVC_report">GitHub repo för min projekt</a></p>
+ </div>
+ <div class="grid-item">
+  <p>Där kommer vi lära oss: </p>
+  <ul>
+      <li>Grundläggande webbutveckling</li>
+      <li>Objektorienterad PHP</li>
+      <li>MySQL</li>
+      <li>HTML, CSS och JavaScript</li>
+      <li>Git och GitHub</li>
+      <li>Composer</li>
+      <li>Twig</li>
+      <li>Dependency Injection</li>
+      <li>Routing</li>
+      <li>Controllers</li>
+      <li>Forms</li>
+      <li>Doctrine</li>
+      <li>CRUD</li>
+      <li>Authentication</li>
+      <li>Authorization</li>
+      <li>Testing</li>
+      <li>Deployment</li>
+  </ul>
+ </div>
+
+ <!-- You can add more grid items as needed -->
+</div>
+
 {% endblock %}
